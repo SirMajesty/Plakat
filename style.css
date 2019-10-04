@@ -1,0 +1,59 @@
+body {
+	width: 1500px;
+	font-family: 'Segoe UI';
+}
+
+h1, h2, h3, span {
+	margin: 100px 100px 100px 100px;
+}
+
+h1 {
+	font-size: 120px;
+	line-height: 130px;
+}
+
+h2 {
+	font-size: 70px;
+	line-height: 75px;
+	margin-bottom: 100px;
+}
+
+h3 {
+	font-size: 80px;
+}
+
+h3:first-letter {
+	color: #f00;
+}
+
+li {
+	list-style: disc;
+	list-style-position: inside;
+	line-height: 40px;
+}
+
+p, li {
+	font-size: 22px;
+}
+
+span {
+	display: block;
+	clear: both;
+	padding-top: 120px;
+}
+
+div {
+	width: 40%;
+    height: auto;
+	line-height: 30px;
+}
+
+.left_div {
+	margin-left: 100px;
+    float: left;
+}
+
+.right_div {
+	margin-right: 100px;
+    float: right;
+}
